@@ -1,10 +1,10 @@
-name: Fetch Static Secrets example
+name: Fetch Static Secrets
 
 'on': push
 
 jobs:
   fetch_secrets:
-    runs-on: self-hosted
+    runs-on: Self-hosted
     permissions:
       id-token: write
       contents: read
